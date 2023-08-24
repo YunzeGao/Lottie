@@ -1,0 +1,4 @@
+common --enable_bzlmod
+
+build --apple_platform_type=ios
+build --ios_multi_cpus=i386,x86_64,armv7,arm64
